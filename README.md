@@ -1,1 +1,1 @@
-# opencv-object-tracking
+# OpenCV Object Tracking: Benchmarking Classical Algorithms

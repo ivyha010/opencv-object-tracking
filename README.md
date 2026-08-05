@@ -72,6 +72,7 @@ Use --help to see options:
 ```
 
 ## Project structure
+```
 opencv-object-tracking/
 │── python/
 │   ├── benchmark.py      # Dataset-wide benchmarking
@@ -86,3 +87,4 @@ opencv-object-tracking/
 │── cpp/
 │   └── main.cpp          # C++ benchmark implementation
 └── README.md             # Project documentation
+```

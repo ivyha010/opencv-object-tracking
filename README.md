@@ -72,19 +72,17 @@ Use --help to see options:
 ```
 
 ## Project structure
-```
 opencv-object-tracking/
 │── python/
-│   ├── benchmark.py      # Dataset-wide benchmarking
-│   └── interactive_roi_demo.py       # Interactive ROI demo
-│   └── utils.py       # Helper functions
-│   └── requirements.txt      # Python dependencies
-│   └── trackers/  
-│       ├── csrt_tracker.py  
-│       └── kcf_tracker.py
-│       └── mil_tracker.py
-│       └── mosse_tracker.py   
+│   ├── benchmark.py              # Dataset-wide benchmarking
+│   ├── interactive_roi_demo.py   # Interactive ROI demo
+│   ├── utils.py                  # Helper functions
+│   ├── requirements.txt          # Python dependencies
+│   └── trackers/
+│       ├── csrt_tracker.py
+│       ├── kcf_tracker.py
+│       ├── mil_tracker.py
+│       └── mosse_tracker.py
 │── cpp/
-│   └── main.cpp          # C++ benchmark implementation
-└── README.md             # Project documentation
-```
+│   └── main.cpp                  # C++ benchmark implementation
+└── README.md                     # Project documentation

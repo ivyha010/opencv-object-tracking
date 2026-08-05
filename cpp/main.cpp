@@ -156,7 +156,7 @@ std::tuple<double,double,double> runTracker(const string& trackerType, const str
 int main(int argc, char** argv) {
     // Defaults
     string datasetRoot = "/home/user/Documents/python_data/OTB2015";
-    int repeats = 2;
+    int repeats = 5;
     vector<string> trackers = {"CSRT"};
 
     // Parse arguments
